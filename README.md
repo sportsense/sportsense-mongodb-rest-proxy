@@ -8,6 +8,7 @@ Licensed under [GNU AGPLv3](LICENSE).
 * Ihab Al Kabary
 * Adalsteinn Jonsson
 * Rufus Lobo
+* Benjamin Park
 * Michael Plüss
 * Lukas Probst
 * Fabian Rauschenbach

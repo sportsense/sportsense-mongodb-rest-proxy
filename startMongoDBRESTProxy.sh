@@ -22,4 +22,4 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 cd $DIR
-java -DlogFileName=mongoDBRestProxy -jar ./target/SportSense-jar-with-dependencies.jar
+java -jar ./target/SportSense-jar-with-dependencies.jar

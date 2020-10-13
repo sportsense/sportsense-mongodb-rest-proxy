@@ -1,9 +1,0 @@
-syntax: glob
-
-target/*
-
-.idea/**
-
-doc/**
-
-SportSense.iml

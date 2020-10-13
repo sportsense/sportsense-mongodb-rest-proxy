@@ -21,7 +21,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>ch.unibas.dmi.dbis</groupId>
 	<artifactId>sportsense-mongodb-rest-proxy</artifactId>
-	<version>0.1</version>
+	<version>1.0.0</version>
 
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.eclipse.jetty.aggregate/jetty-all -->
@@ -34,7 +34,7 @@
 		<!-- https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver -->
 		<dependency>
 			<groupId>org.mongodb</groupId>
-			<artifactId>mongo-java-driver</artifactId>
+			<artifactId>mongodb-driver-legacy</artifactId>
 			<version>${mongodb.version}</version>
 		</dependency>
 
@@ -53,23 +53,51 @@
 			<version>${json.version}</version>
 		</dependency>
 
-
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 			<version>2.6.2</version>
 		</dependency>
 
+		<dependency>
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+			<version>1.1.1</version>
+		</dependency>
 
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.11</version>
+		</dependency>
 
+        <dependency>
+            <groupId>xerces</groupId>
+            <artifactId>xercesImpl</artifactId>
+            <version>2.9.1</version>
+        </dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-slf4j-impl</artifactId>
+			<version>${log4j.version}</version>
+		</dependency>
 	</dependencies>
 
 	<properties>
 		<jetty.version>9.0.4.v20130625</jetty.version>
 		<json.version>20170516</json.version>
 		<servlet.version>4.0.0-b07</servlet.version>
-		<mongodb.version>3.4.2</mongodb.version>
+		<mongodb.version>4.1.0</mongodb.version>
 		<maven.version>3.1.0</maven.version>
+		<slf4j.version>1.7.30</slf4j.version>
+		<log4j.version>2.13.3</log4j.version>
 	</properties>
 
 	<build>

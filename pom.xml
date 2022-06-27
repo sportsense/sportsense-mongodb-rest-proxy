@@ -94,7 +94,7 @@
 		<jetty.version>9.0.4.v20130625</jetty.version>
 		<json.version>20170516</json.version>
 		<servlet.version>4.0.0-b07</servlet.version>
-		<mongodb.version>4.1.0</mongodb.version>
+		<mongodb.version>4.1.2</mongodb.version>
 		<maven.version>3.1.0</maven.version>
 		<slf4j.version>1.7.30</slf4j.version>
 		<log4j.version>2.13.3</log4j.version>

@@ -92,7 +92,7 @@
 
 	<properties>
 		<jetty.version>9.0.4.v20130625</jetty.version>
-		<json.version>20170516</json.version>
+		<json.version>20230227</json.version>
 		<servlet.version>4.0.0-b07</servlet.version>
 		<mongodb.version>4.1.0</mongodb.version>
 		<maven.version>3.1.0</maven.version>
